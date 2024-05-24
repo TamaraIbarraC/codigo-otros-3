@@ -7,10 +7,11 @@ input {
 #lista-de-productos {
   display: flex
 }
+/*aUTO PARA HEIGHT QUE NO DEFORME IMAGEN*/
 
 .producto {
   width: 200px;
-  height: 200px;
+  height: auto; 
   margin: 10px;
   border: 2px solid black;
   display: flex;
@@ -18,7 +19,8 @@ input {
   align-items: center;
 }
 
+/*100 para que ocupe todo el contenedor*/
 .producto img {
-  width: 70%;
+  width: 100%;
   height: auto
 }
